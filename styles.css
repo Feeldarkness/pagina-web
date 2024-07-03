@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f6ece3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #d3b8a3;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #fff;
+}
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    color: #fff;
+    font-style: italic;
+}
+nav {
+    background-color: #e6d9cc;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #d3b8a3;
+}
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+section h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #d3b8a3;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #d3b8a3;
+}
+section p, section ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.cart {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.cart h2 {
+    margin-top: 0;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+.cart-item:last-child {
+    border-bottom: none;
+}
+.cart-item input {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+.cart-item button {
+    background-color: #d3b8a3;
+    border: none;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.cart-item button:hover {
+    background-color: #c19b82;
+}
+footer {
+    background-color: #d3b8a3;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
